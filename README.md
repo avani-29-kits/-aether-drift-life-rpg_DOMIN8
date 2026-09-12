@@ -209,4 +209,7 @@ Fly.io). General steps:
 
 ## Team / Contributors
 
-_Add your name(s) here._
+Sharon Lugun
+Avani Mitra
+Sony Jose J
+Nandyala Angel Jessica Joseph

@@ -5,6 +5,10 @@ Waypoints (quests) to earn XP, Glimmer (gold), and Attribute points,
 build a streak, level up your character, unlock achievements, and
 spend Glimmer on cosmetics in the Cartographer's Cache (shop).
 
+**Live demo:** 
+https://https://aether-drift-life-rpg-domin-8.vercel.app/
+
+
 ## Concept
 
 Traditional to-do apps give you a checkbox. Aether Drift gives you a
@@ -209,4 +213,7 @@ Fly.io). General steps:
 
 ## Team / Contributors
 
-_Add your name(s) here._
+SHARON LUGUN
+AVANI MITRA
+SONY JOSE J
+NANDYALA ANGEL JESSICA JOSEPH

@@ -6,7 +6,7 @@ build a streak, level up your character, unlock achievements, and
 spend Glimmer on cosmetics in the Cartographer's Cache (shop).
 
 **Live demo:** 
-https://https://aether-drift-life-rpg-domin-8.vercel.app/
+https://aether-drift-life-rpg-domin-8.vercel.app/
 
 
 ## Concept
@@ -213,7 +213,9 @@ Fly.io). General steps:
 
 ## Team / Contributors
 
-SHARON LUGUN
-AVANI MITRA
-SONY JOSE J
-NANDYALA ANGEL JESSICA JOSEPH
+<<<<<<< HEAD
+Sharon Lugun
+Avani Mitra
+Sony Jose J
+Nandyala Angel Jessica Joseph
+>>>>>>> 

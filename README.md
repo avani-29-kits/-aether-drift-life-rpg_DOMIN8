@@ -8,6 +8,9 @@ spend Glimmer on cosmetics in the Cartographer's Cache (shop).
 **Live demo:** 
 https://aether-drift-life-rpg-domin-8.vercel.app/
 
+**Demo video:** 
+https://youtu.be/AIcBgUUSdz4?si=DBgp7VUTfLQfZvrS 
+
 
 ## Concept
 

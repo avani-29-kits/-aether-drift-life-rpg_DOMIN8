@@ -11,11 +11,18 @@ function signToken(userId) {
   });
 }
 
+function cookieOptions() {
+  const isProd = process.env.NODE_ENV === 'production';
+  return {
+    httpOnly: true,
+    secure: isProd,
+    sameSite: isProd ? 'none' : 'lax',
+  };
+}
+
 function setAuthCookie(res, token) {
   res.cookie(COOKIE_NAME, token, {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === 'production',
-    sameSite: 'lax',
+    ...cookieOptions(),
     maxAge: 7 * 24 * 60 * 60 * 1000,
   });
 }
@@ -71,8 +78,6 @@ async function login(req, res, next) {
     );
     const user = rows[0];
 
-    // Constant-shaped response whether the email exists or not,
-    // to avoid leaking which emails are registered.
     const dummyHash = '$2a$12$CwTycUXWue0Thq9StjUM0uJ8Fj1uJI1Sh8/BUpjD08MHmMr0USfLm';
     const passwordMatches = await bcrypt.compare(password, user ? user.password_hash : dummyHash);
 
@@ -89,7 +94,7 @@ async function login(req, res, next) {
 }
 
 function logout(req, res) {
-  res.clearCookie(COOKIE_NAME);
+  res.clearCookie(COOKIE_NAME, cookieOptions());
   res.json({ ok: true });
 }
 
